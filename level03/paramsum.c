@@ -20,7 +20,8 @@ void	ft_putnbr(int nbr)
 
 int	main(int argc, char **argv)
 {
-	ft_putnbr(argc - 1);
+	if (argv[0])
+		ft_putnbr(argc - 1);
 	write(1, "\n", 1);
 	return (0);
 }

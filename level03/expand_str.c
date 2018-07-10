@@ -26,7 +26,7 @@ int	main(int argc, char **argv)
 			if (!(argv[1][i] == ' ' || argv[1][i] == '\t'))
 			{
 				if (flg)
-					write(1, "   ", 1);
+					write(1, "   ", 3);
 				flg = 0;
 				write(1, &argv[1][i], 1);
 			}
