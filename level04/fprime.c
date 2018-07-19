@@ -14,7 +14,7 @@ int		main(int argc, char **argv)
 			printf("1");
 		while (nbr >= ++i)
 		{
-			if (nbr & i == 0)
+			if (nbr % i == 0)
 			{
 				printf("%d", i);
 				if (nbr == i)
