@@ -11,7 +11,7 @@ int		main(int argc, char **argv)
 		i = 1;
 		nbr = atoi(argv[1]);
 		if (nbr == 1)
-			printf("%1");
+			printf("1");
 		while (nbr >= ++i)
 		{
 			if (nbr & i == 0)
